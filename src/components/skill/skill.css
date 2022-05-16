@@ -1,0 +1,40 @@
+.Skill-cont{
+    display:flex ;
+    justify-content: center;
+    min-height:50vh;
+    align-items: center;
+    text-align: center;
+}
+.skill-cont1 h2{
+    text-align: center;
+}
+.skill-cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.skill-img{
+    object-fit: cover;
+    height:10vh;
+    width: 10vhw;
+    margin: 16px;
+    padding: 50px;
+    margin-right: 10px;
+    
+    
+}
+.Skill-cont2{
+    display: flex;
+}
+.skill-title h2{
+    font-size: 40px;
+}
+@media only screen and (max-width: 768px) {
+    .Skill-cont {
+        height: auto;
+    }
+  }
+  
