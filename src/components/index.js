@@ -1,18 +1,12 @@
-import React from 'react'
-import Aboutme from './aboutme/aboutme';
-import Contact from './contact/contact';
-import Intro from './intro/intro';
-import Skill from './skill/skill';
+import React from "react";
+import Intro from "./Intro";
 
-const Portfolio = () => {
+const Home = () => {
   return (
     <div>
-        <Intro/>
-        <Aboutme/>
-        <Skill/>
-        <Contact/>
+      <Intro />
     </div>
-  )
-}
+  );
+};
 
-export default Portfolio;
+export default Home;

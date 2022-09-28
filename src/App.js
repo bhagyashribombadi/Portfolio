@@ -1,12 +1,12 @@
-import React from 'react'
-import Portfolio from './components';
+import React from "react";
+import Home from "./Components";
 
 const App = () => {
   return (
     <div>
-        <Portfolio/>
+      <Home />
     </div>
-  )
-}
+  );
+};
 
 export default App;
