@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./Components";
+import Portfolio from "./component";
 
 const App = () => {
   return (
     <div>
-      <Home />
+      <Portfolio />
     </div>
   );
 };
